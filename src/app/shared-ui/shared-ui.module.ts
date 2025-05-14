@@ -1,23 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-// Importa los componentes que necesites, por ejemplo:
 import { ButtonComponent } from '../ui-components/button/button.component';
-import { PanelComponent } from '../ui-components/panel/panel.component';
 
 @NgModule({
-  declarations: [
-    ButtonComponent,
-    PanelComponent
-    // Agrega aquí otros componentes
-  ],
   imports: [
-    CommonModule
+    CommonModule,
+    ButtonComponent // Importa en lugar de declarar
   ],
   exports: [
-    ButtonComponent,
-    PanelComponent
-    // Exporta los mismos componentes
+    ButtonComponent // Exporta normalmente
   ]
 })
-export class SharedUiModule { }
+export class SharedUiModule {}
