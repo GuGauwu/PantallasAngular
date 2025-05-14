@@ -1,0 +1,3 @@
+[submodule "src/app/ui-components"]
+	path = src/app/ui-components
+	url = https://github.com/lissethproyectos/AngularContabilidad.git
