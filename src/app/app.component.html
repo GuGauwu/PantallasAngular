@@ -1,0 +1,97 @@
+<div class="container-fluid mt-3">
+  <h4>MOVIMIENTOS > Pólizas</h4>
+
+  <!-- Filtros -->
+  <div class="row mb-3 g-2">
+    <div class="col-md-2">
+      <label>Mes Inicial</label>
+      <select class="form-select">
+        <option>Abril ✓</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label>Mes Final</label>
+      <select class="form-select">
+        <option>Abril</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label>Tipo</label>
+      <select class="form-select">
+        <option>Todos</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label>Status</label>
+      <select class="form-select">
+        <option>Todos</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label>Tipo Captura</label>
+      <select class="form-select">
+        <option>--Todos--</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label>Mostrar</label>
+      <select class="form-select">
+        <option>5 registros</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Buscador -->
+  <div class="row mb-3">
+    <div class="col-md-4">
+      <label>Clasificación</label>
+      <input type="text" class="form-control" placeholder="Buscar Póliza/Concepto">
+    </div>
+    <div class="col-md-2">
+      <label>TODOS</label>
+      <input type="text" class="form-control" placeholder="Ej: 04E0001">
+    </div>
+  </div>
+
+  <!-- Tabla -->
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>CC</th>
+          <th># PÓL.</th>
+          <th>TIPO</th>
+          <th>FECHA</th>
+          <th>STATUS</th>
+          <th>CONCEPTO</th>
+          <th>CARGO</th>
+          <th>ABONO</th>
+          <th>ACCIONES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>11101</td>
+          <td>04E0001</td>
+          <td>Ingreso</td>
+          <td>01/Abr/2025</td>
+          <td>Aplicada Manual MC</td>
+          <td>REGISTRO DE INTERESES GENERADOS CORRESPONDENTES AL PERIODO DEL 01 AL 31 DE MARZO DEL 2025...</td>
+          <td>$851.09</td>
+          <td>$852.09</td>
+          <td>
+            <button class="btn btn-sm btn-outline-primary">Editar</button>
+            <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Buscador inferior -->
+  <div class="row mt-3">
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="Buscar...">
+    </div>
+  </div>
+</div>
